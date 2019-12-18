@@ -1,0 +1,18 @@
+<suite name="MyAccount Module">
+    
+<test name="Validate User Test">
+<classes>
+<class name="unicodeTech.MyAccount.ValidateUser"></class>
+</classes>
+
+</test>
+
+
+<test name="ChangePassword Test">
+<classes>
+<class name="unicodeTech.MyAccount.ChangePassword"></class>
+</classes>
+
+</test>
+
+</suite>

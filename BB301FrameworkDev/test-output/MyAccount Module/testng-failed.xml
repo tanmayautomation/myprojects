@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [MyAccount Module]">
+  <test name="ChangePassword Test(failed)">
+    <classes>
+      <class name="unicodeTech.MyAccount.ChangePassword">
+        <methods>
+          <include name="testChangePwd"/>
+          <include name="checkTestSuite"/>
+          <include name="checkTestCase"/>
+        </methods>
+      </class> <!-- unicodeTech.MyAccount.ChangePassword -->
+    </classes>
+  </test> <!-- ChangePassword Test(failed) -->
+</suite> <!-- Failed suite [MyAccount Module] -->

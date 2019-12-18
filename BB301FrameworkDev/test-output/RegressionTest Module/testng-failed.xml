@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RegressionTest Module]">
+  <test name="Manufacturer Test(failed)">
+    <classes>
+      <class name="unicodeTech.RegressionTest.ManufacturerSelection">
+        <methods>
+          <include name="testManufacturers"/>
+          <include name="checkTestCase"/>
+        </methods>
+      </class> <!-- unicodeTech.RegressionTest.ManufacturerSelection -->
+      <class name="unicodeTech.RegressionTest.BestSellerProducts">
+        <methods>
+          <include name="checkTestCase"/>
+          <include name="checkTestSuite"/>
+        </methods>
+      </class> <!-- unicodeTech.RegressionTest.BestSellerProducts -->
+    </classes>
+  </test> <!-- Manufacturer Test(failed) -->
+  <test name="BestSellerProducts Test(failed)">
+    <classes>
+      <class name="unicodeTech.RegressionTest.ManufacturerSelection">
+        <methods>
+          <include name="checkTestCase"/>
+        </methods>
+      </class> <!-- unicodeTech.RegressionTest.ManufacturerSelection -->
+      <class name="unicodeTech.RegressionTest.BestSellerProducts">
+        <methods>
+          <include name="testBestSellerProducts"/>
+          <include name="checkTestCase"/>
+          <include name="checkTestSuite"/>
+        </methods>
+      </class> <!-- unicodeTech.RegressionTest.BestSellerProducts -->
+    </classes>
+  </test> <!-- BestSellerProducts Test(failed) -->
+</suite> <!-- Failed suite [RegressionTest Module] -->

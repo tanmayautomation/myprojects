@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MyAccount Module" duration-ms="32744" started-at="2018-03-30T10:35:48Z" finished-at="2018-03-30T10:36:20Z">
+    <groups>
+    </groups>
+    <test name="Validate User Test" duration-ms="19838" started-at="2018-03-30T10:35:48Z" finished-at="2018-03-30T10:36:07Z">
+      <class name="unicodeTech.MyAccount.ValidateUser">
+        <test-method status="PASS" signature="checkTestCase()[pri:0, instance:unicodeTech.MyAccount.ValidateUser@5f3a4b84]" name="checkTestCase" is-config="true" duration-ms="0" started-at="2018-03-30T16:05:48Z" finished-at="2018-03-30T16:05:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestCase -->
+        <test-method status="PASS" signature="testValidateUser(java.lang.String, java.lang.String)[pri:0, instance:unicodeTech.MyAccount.ValidateUser@5f3a4b84]" name="testValidateUser" duration-ms="7887" started-at="2018-03-30T16:05:48Z" data-provider="getTestDataFromXLS" finished-at="2018-03-30T16:05:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demo@unicodetechnologies.in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[unicode]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateUser -->
+        <test-method status="PASS" signature="testValidateUser(java.lang.String, java.lang.String)[pri:0, instance:unicodeTech.MyAccount.ValidateUser@5f3a4b84]" name="testValidateUser" duration-ms="5800" started-at="2018-03-30T16:05:56Z" data-provider="getTestDataFromXLS" finished-at="2018-03-30T16:06:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demo1@unicodetechnologies.in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[unicode1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateUser -->
+        <test-method status="PASS" signature="testValidateUser(java.lang.String, java.lang.String)[pri:0, instance:unicodeTech.MyAccount.ValidateUser@5f3a4b84]" name="testValidateUser" duration-ms="6119" started-at="2018-03-30T16:06:01Z" data-provider="getTestDataFromXLS" finished-at="2018-03-30T16:06:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demo2@unicodetechnologies.in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[unicode2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateUser -->
+      </class> <!-- unicodeTech.MyAccount.ValidateUser -->
+    </test> <!-- Validate User Test -->
+    <test name="ChangePassword Test" duration-ms="12866" started-at="2018-03-30T10:36:08Z" finished-at="2018-03-30T10:36:20Z">
+      <class name="unicodeTech.MyAccount.ChangePassword">
+        <test-method status="PASS" signature="checkTestSuite()[pri:0, instance:unicodeTech.MyAccount.ChangePassword@37374a5e]" name="checkTestSuite" is-config="true" duration-ms="6697" started-at="2018-03-30T16:05:41Z" finished-at="2018-03-30T16:05:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSuite -->
+        <test-method status="PASS" signature="checkTestCase()[pri:0, instance:unicodeTech.MyAccount.ChangePassword@37374a5e]" name="checkTestCase" is-config="true" duration-ms="0" started-at="2018-03-30T16:06:08Z" finished-at="2018-03-30T16:06:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestCase -->
+        <test-method status="PASS" signature="testChangePwd()[pri:0, instance:unicodeTech.MyAccount.ChangePassword@37374a5e]" name="testChangePwd" duration-ms="12854" started-at="2018-03-30T16:06:08Z" finished-at="2018-03-30T16:06:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangePwd -->
+      </class> <!-- unicodeTech.MyAccount.ChangePassword -->
+    </test> <!-- ChangePassword Test -->
+  </suite> <!-- MyAccount Module -->
+</testng-results>

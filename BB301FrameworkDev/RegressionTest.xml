@@ -1,0 +1,18 @@
+<suite name="RegressionTest Module">
+    
+<test name="Manufacturer Test">
+<classes>
+<class name="unicodeTech.RegressionTest.ManufacturerSelection"></class>
+</classes>
+
+</test>
+
+
+<test name="BestSellerProducts Test">
+<classes>
+<class name="unicodeTech.RegressionTest.BestSellerProducts"></class>
+</classes>
+
+</test>
+
+</suite>

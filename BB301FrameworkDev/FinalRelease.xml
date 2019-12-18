@@ -1,0 +1,7 @@
+<suite name="ReadersBook-FinalRelease-25022018">
+<suite-files>
+<suite-file path="./MyAccount.xml"></suite-file>
+<suite-file path="./RegressionTest.xml"></suite-file>
+</suite-files>
+
+</suite>
