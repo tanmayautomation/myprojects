@@ -1,0 +1,129 @@
+2018-02-13 12:24:13:816 - info: Welcome to Appium v1.4.16 (REV ae6877eff263066b26328d457bd285c0cc62430d)
+2018-02-13 12:24:13:818 - info: Appium REST http interface listener started on 0.0.0.0:4723
+2018-02-13 12:24:13:822 - info: [debug] Non-default server args: {"log":"D:\\Batches\\TanmayStuff\\POMFrameworkUnicode\\src\\test\\resources\\logs\\Appium.log"}
+2018-02-13 12:24:13:822 - info: Console LogLevel: debug
+2018-02-13 12:24:13:822 - info: File LogLevel: debug
+2018-02-13 12:24:13:966 - info: --> GET /wd/hub/status {}
+2018-02-13 12:24:13:968 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.16","revision":"ae6877eff263066b26328d457bd285c0cc62430d"}}}
+2018-02-13 12:24:13:975 - info: <-- GET /wd/hub/status 200 9.260 ms - 105 {"status":0,"value":{"build":{"version":"1.4.16","revision":"ae6877eff263066b26328d457bd285c0cc62430d"}}}
+2018-02-13 12:24:14:762 - info: --> POST /wd/hub/session {"desiredCapabilities":{"appPackage":"com.gsrtc.mobileweb","appActivity":"com.gsrtc.mobileweb.ui.activities.advance_booking.AdvanceBookingSearchActivity","platformName":"Android","deviceName":"Samsung Galaxy A8"}}
+2018-02-13 12:24:14:763 - info: Client User-Agent string: Apache-HttpClient/4.5.2 (Java/1.8.0_121)
+2018-02-13 12:24:14:767 - info: [debug] Didn't get app but did get Android package, will attempt to launch it on the device
+2018-02-13 12:24:14:768 - info: [debug] Creating new appium session c0ab18fb-84bf-47b1-8a87-b50b04fb949e
+2018-02-13 12:24:14:769 - info: Starting android appium
+2018-02-13 12:24:14:771 - info: [debug] Getting Java version
+2018-02-13 12:24:14:882 - info: Java version is: 1.8.0_121
+2018-02-13 12:24:14:883 - info: [debug] Checking whether adb is present
+2018-02-13 12:24:14:886 - info: [debug] Using adb from E:\Android-sdk\platform-tools\adb.exe
+2018-02-13 12:24:14:886 - warn: No app capability, can't parse package/activity
+2018-02-13 12:24:14:887 - info: [debug] Using fast reset? true
+2018-02-13 12:24:14:887 - info: [debug] Preparing device for session
+2018-02-13 12:24:14:888 - info: [debug] Not checking whether app is present since we are assuming it's already on the device
+2018-02-13 12:24:14:889 - info: Retrieving device
+2018-02-13 12:24:14:889 - info: [debug] Trying to find a connected android device
+2018-02-13 12:24:14:891 - info: [debug] Getting connected devices...
+2018-02-13 12:24:14:893 - info: [debug] executing cmd: E:\Android-sdk\platform-tools\adb.exe devices
+2018-02-13 12:24:14:920 - info: [debug] 1 device(s) connected
+2018-02-13 12:24:14:920 - info: Found device 41001fe6e4b8b147
+2018-02-13 12:24:14:920 - info: [debug] Setting device id to 41001fe6e4b8b147
+2018-02-13 12:24:14:921 - info: [debug] Waiting for device to be ready and to respond to shell commands (timeout = 5)
+2018-02-13 12:24:14:922 - info: [debug] executing cmd: E:\Android-sdk\platform-tools\adb.exe -s 41001fe6e4b8b147 wait-for-device
+2018-02-13 12:24:14:946 - info: [debug] executing cmd: E:\Android-sdk\platform-tools\adb.exe -s 41001fe6e4b8b147 shell "echo 'ready'"
+2018-02-13 12:24:15:016 - info: [debug] Starting logcat capture
+2018-02-13 12:24:15:067 - info: [debug] Getting device API level
+2018-02-13 12:24:15:067 - info: [debug] executing cmd: E:\Android-sdk\platform-tools\adb.exe -s 41001fe6e4b8b147 shell "getprop ro.build.version.sdk"
+2018-02-13 12:24:15:132 - info: [debug] Device is at API Level 22
+2018-02-13 12:24:15:133 - info: Device API level is: 22
+2018-02-13 12:24:15:133 - info: [debug] Extracting strings for language: default
+2018-02-13 12:24:15:134 - info: [debug] Apk doesn't exist locally
+2018-02-13 12:24:15:134 - info: [debug] Could not get strings, but it looks like we had an old strings file anyway, so ignoring
+2018-02-13 12:24:15:134 - info: [debug] executing cmd: E:\Android-sdk\platform-tools\adb.exe -s 41001fe6e4b8b147 shell "rm -rf /data/local/tmp/strings.json"
+2018-02-13 12:24:15:198 - info: [debug] Not uninstalling app since server not started with --full-reset
+2018-02-13 12:24:15:198 - info: [debug] Skipping install since we launched with a package instead of an app path
+2018-02-13 12:24:15:199 - info: [debug] Forwarding system:4724 to device:4724
+2018-02-13 12:24:15:199 - info: [debug] executing cmd: E:\Android-sdk\platform-tools\adb.exe -s 41001fe6e4b8b147 forward tcp:4724 tcp:4724
+2018-02-13 12:24:15:233 - info: [debug] Pushing appium bootstrap to device...
+2018-02-13 12:24:15:234 - info: [debug] executing cmd: E:\Android-sdk\platform-tools\adb.exe -s 41001fe6e4b8b147 push "C:\\Program Files (x86)\\Appium\\node_modules\\appium\\build\\android_bootstrap\\AppiumBootstrap.jar" /data/local/tmp/
+2018-02-13 12:24:15:287 - info: [debug] Pushing settings apk to device...
+2018-02-13 12:24:15:288 - info: [debug] executing cmd: E:\Android-sdk\platform-tools\adb.exe -s 41001fe6e4b8b147 install "C:\Program Files (x86)\Appium\node_modules\appium\build\settings_apk\settings_apk-debug.apk"
+2018-02-13 12:24:18:198 - info: [debug] Pushing unlock helper app to device...
+2018-02-13 12:24:18:199 - info: [debug] executing cmd: E:\Android-sdk\platform-tools\adb.exe -s 41001fe6e4b8b147 install "C:\Program Files (x86)\Appium\node_modules\appium\build\unlock_apk\unlock_apk-debug.apk"
+2018-02-13 12:24:19:680 - info: Starting App
+2018-02-13 12:24:19:681 - info: [debug] Attempting to kill all 'uiautomator' processes
+2018-02-13 12:24:19:682 - info: [debug] Getting all processes with 'uiautomator'
+2018-02-13 12:24:19:683 - info: [debug] executing cmd: E:\Android-sdk\platform-tools\adb.exe -s 41001fe6e4b8b147 shell "ps 'uiautomator'"
+2018-02-13 12:24:19:880 - info: [debug] No matching processes found
+2018-02-13 12:24:19:880 - info: [debug] Running bootstrap
+2018-02-13 12:24:19:881 - info: [debug] spawning: E:\Android-sdk\platform-tools\adb.exe -s 41001fe6e4b8b147 shell uiautomator runtest AppiumBootstrap.jar -c io.appium.android.bootstrap.Bootstrap -e pkg com.gsrtc.mobileweb -e disableAndroidWatchers false
+2018-02-13 12:24:21:026 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: numtests=1
+2018-02-13 12:24:21:027 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: stream=
+2018-02-13 12:24:21:027 - info: [debug] [UIAUTOMATOR STDOUT] io.appium.android.bootstrap.Bootstrap:
+2018-02-13 12:24:21:028 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+2018-02-13 12:24:21:028 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: test=testRunServer
+2018-02-13 12:24:21:029 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap
+2018-02-13 12:24:21:029 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: current=1
+2018-02-13 12:24:21:030 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS_CODE: 1
+2018-02-13 12:24:21:072 - info: [debug] [BOOTSTRAP] [debug] Socket opened on port 4724
+2018-02-13 12:24:21:074 - info: [debug] [BOOTSTRAP] [debug] Appium Socket Server Ready
+2018-02-13 12:24:21:076 - info: [debug] [BOOTSTRAP] [debug] Loading json...
+2018-02-13 12:24:21:077 - info: [debug] [BOOTSTRAP] [debug] Registered crash watchers.
+2018-02-13 12:24:21:077 - info: [debug] Waking up device if it's not alive
+2018-02-13 12:24:21:077 - info: [debug] Pushing command to appium work queue: ["wake",{}]
+2018-02-13 12:24:21:083 - info: [debug] [BOOTSTRAP] [debug] Client connected
+2018-02-13 12:24:21:084 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"wake","params":{}}
+2018-02-13 12:24:21:087 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2018-02-13 12:24:21:087 - info: [debug] [BOOTSTRAP] [debug] Got command action: wake
+2018-02-13 12:24:21:090 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":true}
+2018-02-13 12:24:21:091 - info: [debug] executing cmd: E:\Android-sdk\platform-tools\adb.exe -s 41001fe6e4b8b147 shell "dumpsys window"
+2018-02-13 12:24:21:196 - info: [debug] Screen already unlocked, continuing.
+2018-02-13 12:24:21:196 - info: [debug] Pushing command to appium work queue: ["getDataDir",{}]
+2018-02-13 12:24:21:202 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"getDataDir","params":{}}
+2018-02-13 12:24:21:202 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2018-02-13 12:24:21:203 - info: [debug] [BOOTSTRAP] [debug] Got command action: getDataDir
+2018-02-13 12:24:21:203 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":"\/data\/local\/tmp"}
+2018-02-13 12:24:21:204 - info: [debug] dataDir set to: /data/local/tmp
+2018-02-13 12:24:21:204 - info: [debug] Pushing command to appium work queue: ["compressedLayoutHierarchy",{"compressLayout":false}]
+2018-02-13 12:24:21:209 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"compressedLayoutHierarchy","params":{"compressLayout":false}}
+2018-02-13 12:24:21:210 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2018-02-13 12:24:21:221 - info: [debug] [BOOTSTRAP] [debug] Got command action: compressedLayoutHierarchy
+2018-02-13 12:24:21:222 - info: [debug] Getting device API level
+2018-02-13 12:24:21:223 - info: [debug] executing cmd: E:\Android-sdk\platform-tools\adb.exe -s 41001fe6e4b8b147 shell "getprop ro.build.version.sdk"
+2018-02-13 12:24:21:226 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":false}
+2018-02-13 12:24:21:299 - info: [debug] Device is at API Level 22
+2018-02-13 12:24:21:300 - info: [debug] executing cmd: E:\Android-sdk\platform-tools\adb.exe -s 41001fe6e4b8b147 shell "am start -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000 -n com.gsrtc.mobileweb/com.gsrtc.mobileweb.ui.activities.advance_booking.AdvanceBookingSearchActivity"
+2018-02-13 12:24:22:069 - error: Permission to start activity denied.
+2018-02-13 12:24:22:070 - info: [debug] Stopping logcat capture
+2018-02-13 12:24:22:078 - info: [debug] Logcat terminated with code null, signal SIGTERM
+2018-02-13 12:24:22:088 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"shutdown"}
+2018-02-13 12:24:22:089 - info: [debug] [BOOTSTRAP] [debug] Got command of type SHUTDOWN
+2018-02-13 12:24:22:090 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":"OK, shutting down"}
+2018-02-13 12:24:22:090 - info: [debug] [BOOTSTRAP] [debug] Closed client connection
+2018-02-13 12:24:22:091 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: numtests=1
+2018-02-13 12:24:22:091 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: stream=.
+2018-02-13 12:24:22:091 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+2018-02-13 12:24:22:091 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: test=testRunServer
+2018-02-13 12:24:22:091 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap
+2018-02-13 12:24:22:092 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: current=1
+2018-02-13 12:24:22:092 - info: [debug] Sent shutdown command, waiting for UiAutomator to stop...
+2018-02-13 12:24:22:093 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS_CODE: 0
+2018-02-13 12:24:22:093 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: stream=
+2018-02-13 12:24:22:093 - info: [debug] [UIAUTOMATOR STDOUT] Test results for WatcherResultPrinter=.
+2018-02-13 12:24:22:093 - info: [debug] [UIAUTOMATOR STDOUT] Time: 1.197
+2018-02-13 12:24:22:094 - info: [debug] [UIAUTOMATOR STDOUT] OK (1 test)
+2018-02-13 12:24:22:094 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS_CODE: -1
+2018-02-13 12:24:22:179 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_RESULT: shortMsg=java.lang.SecurityException
+2018-02-13 12:24:22:181 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_RESULT: longMsg=Permission Denial: getIntentSender() from pid=20614, uid=2000, (need uid=1000) is not allowed to send as package android
+2018-02-13 12:24:22:181 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_CODE: 0
+2018-02-13 12:24:22:185 - info: [debug] UiAutomator shut down normally
+2018-02-13 12:24:22:185 - info: [debug] Cleaning up android objects
+2018-02-13 12:24:22:185 - info: [debug] Cleaning up appium session
+2018-02-13 12:24:22:186 - error: Failed to start an Appium session, err was: Error: Permission to start activity denied.
+2018-02-13 12:24:22:189 - info: [debug] Error: Permission to start activity denied.
+    at [object Object].<anonymous> (C:\Program Files (x86)\Appium\node_modules\appium\node_modules\appium-adb\lib\adb.js:1151:19)
+    at [object Object].<anonymous> (C:\Program Files (x86)\Appium\node_modules\appium\node_modules\appium-adb\lib\adb.js:180:9)
+    at ChildProcess.exithandler (child_process.js:742:7)
+    at ChildProcess.emit (events.js:110:17)
+    at maybeClose (child_process.js:1016:16)
+    at Process.ChildProcess._handle.onexit (child_process.js:1088:5)
+2018-02-13 12:24:22:190 - info: [debug] Responding to client with error: {"status":33,"value":{"message":"A new session could not be created. (Original error: Permission to start activity denied.)","origValue":"Permission to start activity denied."},"sessionId":null}
+2018-02-13 12:24:22:196 - info: <-- POST /wd/hub/session 500 7433.544 ms - 194 
